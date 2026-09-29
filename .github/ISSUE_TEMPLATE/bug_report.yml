@@ -22,10 +22,12 @@ required: true
 - type: markdown 
 attributes: 
 value: | 
-Отобразить текст с разметкой markdown - type: checkboxes 
+Отобразить текст с разметкой markdown 
+- type: checkboxes 
 id: идентификатор поля ввода 
 attributes: 
 label: подпись 
 description: описание 
-options: - label: флажок 1 
+options: 
+- label: флажок 1 
 required: true #флажок обязателен или нет 
